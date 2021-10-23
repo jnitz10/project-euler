@@ -1,0 +1,8 @@
+
+
+fac :: Int -> Int
+fac 0 = 1
+fac n = n * fac (n-1)
+
+comb :: Int -> Int -> Int
+comb n r = (fac n) / ((fac r) * (fac (n - r)))

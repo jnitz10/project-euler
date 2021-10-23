@@ -1,0 +1,5 @@
+import Data.List (sort)
+
+
+isAnagram :: Int -> Int -> Bool
+isAnagram x y = (sort (show x)) == (sort (show y))

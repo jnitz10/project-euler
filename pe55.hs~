@@ -1,0 +1,4 @@
+
+
+isPalindrome :: Int -> Bool
+isPalindrome n = reverse (show n) == (show n)
